@@ -1,0 +1,18 @@
+{
+  "name": "longbridge-research-os",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Cross-market financial research engineering modules",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
